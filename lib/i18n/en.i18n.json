@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "AI Paywall Demo",
+    "loading": "Preparing your subscription"
+  },
+  "navigation": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "This screen is not available in the demo.",
+    "backToStart": "Back to start"
+  },
+  "onboarding": {
+    "title": "Build premium access locally",
+    "subtitle": "A compact demo of onboarding, a paywall, entitlement storage, and protected content.",
+    "screenOneTitle": "Local billing simulation",
+    "screenOneBody": "Plans, purchases, receipts, and entitlement validation are modeled without a store SDK.",
+    "screenTwoTitle": "Secure entitlement state",
+    "screenTwoBody": "The subscription receipt is stored in secure storage and checked again at launch.",
+    "continueButton": "Continue"
+  },
+  "paywall": {
+    "title": "Unlock the premium demo",
+    "subtitle": "Choose a local subscription plan. Purchases are emulated and saved only on this device.",
+    "monthlyTitle": "Monthly",
+    "monthlyDescription": "Flexible access for a focused review.",
+    "monthlyPrice": "4.99 USD",
+    "monthlyPeriod": "per month",
+    "yearlyTitle": "Yearly",
+    "yearlyDescription": "Best value for long-running demo access.",
+    "yearlyPrice": "39.99 USD",
+    "yearlyPeriod": "per year",
+    "yearlyBadge": "Best value - save 33%",
+    "continueButton": "Continue",
+    "purchaseLoading": "Creating local receipt...",
+    "loadFailure": "Could not load subscription plans.",
+    "purchaseFailure": "Purchase could not be completed.",
+    "legal": "Demo billing only. No App Store or Google Play charge is made."
+  },
+  "home": {
+    "title": "Premium Home",
+    "welcome": "Your local entitlement is active. This screen is protected by the billing domain.",
+    "subscription": "Subscription",
+    "expires": "Expires",
+    "receipt": "Receipt",
+    "featuresTitle": "Included in this demo",
+    "featureOne": "Protected launch routing",
+    "featureTwo": "Secure entitlement persistence",
+    "featureThree": "Receipt and expiration validation",
+    "featureFour": "Clean billing repository boundary",
+    "featureFive": "Local reset for assignment review",
+    "resetButton": "Reset demo state",
+    "resetDialogTitle": "Reset demo state?",
+    "resetDialogBody": "This clears the secure entitlement and onboarding flag on this device.",
+    "cancel": "Cancel",
+    "reset": "Reset"
+  },
+  "errors": {
+    "unknown": "Something went wrong.",
+    "invalidConfig": "App configuration is invalid.",
+    "invalidEntitlement": "Stored entitlement is invalid."
+  }
+}
